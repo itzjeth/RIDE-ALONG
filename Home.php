@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-	<title>RIDE ALONG</title>
+	<title>Ride Along</title>
     <!-----------------CSS sheet----------------->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS v5.2.1 -->

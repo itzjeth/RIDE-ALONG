@@ -1,7 +1,7 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-	<title>RIDE ALONG</title>
+	<title>Ride Along</title>
 	<link href="Resources/css.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="color.css">
 	</head>
@@ -85,7 +85,7 @@
                      </tr>
                   </table>
                   </div>
-                   <div class="col_3">
+                   <div id="checkoutform" class="col_3">
                    
                   <table id="billingtable">
                      <tr>

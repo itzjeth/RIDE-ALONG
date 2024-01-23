@@ -1,22 +1,17 @@
 body {
-	background: url('Resources/designimages/backyellow.png');
+	background: url('Resources/designimages/backgray.png');
 }
 
 h3 {
 	background: #1C404C;
 	color: white;
 	border: 1px solid black;
+	text-align: center;
 	border-radius: 10px;
+	padding: 15px 0px;
 }
-#mainframe {
-	background: linear-gradient(to bottom, #F4D9AE, #b9375e);
-	background-cover: fixed;
-	color: black;
-}
-#mainframe2 {
-	background: linear-gradient(75deg, #F4D9AE, #b9375e);
-	background-cover: fixed;
-	color: black;
+#mainframe, #mainframe2 {
+	background: #F4D9AE;
 }
 .navigationbar {
 	background: #1C404C;
@@ -40,8 +35,8 @@ h3 {
 	color: white;
 }
 .sidebar {
-	background: #DE9E46;
-	color: white;
+	background: #1C404C;
+	border: 1px solid  #2D8077;
 }
 
 #box, #pnbform {
@@ -84,7 +79,7 @@ button {
 	color: black;
 }
 input[placeholder] {
-	color: blue;
+	color: black;
 	font-size: 17px;
 
 }
@@ -95,10 +90,17 @@ input[placeholder] {
 textarea {
 	padding: 0px 24px 0px 33px;
 	border: 2px solid black;
-	color: blue;
 }
 .message {
-	padding: 25px 38px;
+	width: 220px;
+	height: 5vh;
+	background: #1C404C;
+	color: #F4D9AE;
+}
+.message:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 1px solid #1C404C;
 }
 #im1 {
 	width:550px;
@@ -117,37 +119,48 @@ textarea {
 	color: black;
 }
 #register{
-    background: #2D8077;
-	color: #F4D9AE; 
-	border: 1px solid black; 
-
+	background:#2D8077;
+	color: #F4D9AE;
+	
 }
 #register:hover {
-    color: #2D8077;
-	background: #F4D9AE; 
+	color:#2D8077;
+	background: #F4D9AE;
+	border: 0.8px solid #2D8077;
+
 }
 #category2 {
 	background: #DE9E46; 
 	color: black;
 }
-#category:hover {
 
-}
 input[name="search"] {
-	background: linear-gradient(35deg, #CD4F41, #F4D9AE);
-	color: black;
+	color: #1C404C;
+	background: #F4D9AE;
 }
 input[name="search"]:hover {
-	background: #F4D9AE;
+	background: #1C404C;
+	color: #F4D9AE;
+	border: 0.8px solid  #F4D9AE;
 	
 }
 #uwelcome {
-	background: black; 
-	color: lime; 
+	color: #1C404C;
+	background: #F4D9AE;
 	letter-spacing: 5px;
+	font-size: 20px;
+}
+input[name="login"]:hover {
+	
+	color: #2D8077;
+	background: #F4D9AE;
+	border: 0.8px solid #2D8077;
+	padding: 18px 35px;
 }
 input[name="login"] {
-	border: 0.8px solid black;
+	background: #2D8077;
+	color: #F4D9AE;
+	
 	padding: 18px 35px;
 }
 #createacc {
@@ -155,13 +168,32 @@ input[name="login"] {
 }
 input[type="text"],
 input[type="password"] {
-	color: blue;
+	color: black;
 	font-size: 1.3em;
 	}
 
 input[name="register"] {
 	text-align: right;
 	padding: 15px 35px;
+	background: #2D8077;
+	color: #F4D9AE;
+
+}
+input[name="register"]:hover {
+	border: 2px solid #2D8077;
+	color: #2D8077;
+	background: #F4D9AE;
+
+}
+input[name="addtocart"] {
+	background: #2D8077;
+	color: #F4D9AE;
+	padding: 15px 35px;
+}
+input[name="addtocart"]:hover {
+	border: 2px solid #2D8077;
+	color: #2D8077;
+	background: #F4D9AE;
 
 }
 #form3 {
@@ -171,7 +203,8 @@ input[name="register"] {
 	mix-blend-mode: multiply;
 
 }
-.productdesc {
+#productdesc {
+	
 	color: black;
 }
 #sidebar {
@@ -179,8 +212,8 @@ input[name="register"] {
 	border: 1px solid black;
 }
 .cart-btn {
-	background: #DE9E46;
-	color:  #1C404C;
+	color: #1C404C;
+	background: #F4D9AE;
 }
 #tablee {
 	background: white;
@@ -198,29 +231,117 @@ select {
 	font-size: 1.0em;
 }
 #logout {
+	
 	text-align: center;
 	justify-content: center;
 	padding: 25px 36px;
 }
+
 input[name="logout"] {
 	padding: 18px 33px;
-    background: cyan;
+	background: #1C404C;
+	color: #F4D9AE;
     border: 1px solid black;
 	border-radius: 10px;
 }
 input[name="logout"]:hover {
 	padding: 18px 33px;
 	border: 1px solid black;
-	color: cyan;
-	background: black;
+	color: #1C404C;
+	background: #F4D9AE;
 
 }
 #ordersucc {
 	padding: 35px 0px;
 	font-size: 2em;
 }
+.tablereview {
+	border: 1px solid black;
+	font-size: 1.2em;
+}
+input[name="categoryvalues[]"] {
+	color: #1C404C;
+	background: #F4D9AE;
+}
+input[name="categoryvalues[]"]:hover {
+	background: #1C404C;
+	color: #F4D9AE;
+	border: 0.8px solid #F4D9AE;
+}
+.productdesc {
+	font-size: 3em;
+}
+#sidepnb {
+    background: white;
+	color: #1C404C;
+	font-size: 17px;
+}
+#similar:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 0.8px solid #F4D9AE;
+}
+#similar {
+	background: #1C404C;
+	color: #F4D9AE;
+	
+}
+#similarproducts {
+	color:  #F4D9AE;
+}
+input[name="updateitem"], input[name="removeitem"], input[name="checkout"], input[name="continueshopping"] {
+	background: #1C404C;
+	color: #F4D9AE;
+}
+input[name="updateitem"]:hover, input[name="removeitem"]:hover, input[name="checkout"]:hover, input[name="continueshopping"]:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 0.8px solid #1C404C;
+}
+#cartsummary {
+	color: #1C404C;
+	font-size: 17px;
+}
+#head {
+	color: #F4D9AE;
+	padding: 15px 0;
+	border-bottom: 1px solid #F4D9AE;
+	border-top: 1px solid #F4D9AE;
+}
+input[name="placeorder"] {
+	background: #1C404C;
+	color: #F4D9AE;
+}
+input[name="placeorder"]:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 0.8px solid #1C404C;
+}
+#checkoutform {
+	border: 1px solid #1C404C;
+}
+input[name="addreview"] {
+	background: #1C404C;
+	color: #F4D9AE;
+}
+input[name="addreview"]:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 0.8px solid #1C404C;
+}
+input[name="continueguest"] {
+	background: #1C404C;
+	color: #F4D9AE;
+}
+input[name="continueguest"]:hover {
+	color: #1C404C;
+	background: #F4D9AE;
+	border: 0.8px solid #1C404C;
+}
 
-
+#revieww {
+	font-size: 1.5em;
+}
 /* this button*/
 .thisa {
   position: relative;

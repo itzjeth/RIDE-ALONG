@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Yamaha</title>
+    <title>Ride Along</title>
     <link href="../Resources/css.css" rel="stylesheet" type="text/css">
   </head>
   <body>

@@ -2,7 +2,7 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-	<title>Yamaha</title>
+
 	<link href="Resources/css.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="color.css">
 	</head>
@@ -31,7 +31,7 @@
      <!----------------- main frame----------------->
 	<div id="mainframe">
  	<div class="sub_framefullpage" style="width:100%">
-    <h3>Welcome to your account - <i id="uwelcome"><?php echo $_SESSION["username"] ?></i></h3>
+    <h3>Welcome to your account - <b id="uwelcome"><?php echo $_SESSION["username"] ?></b></h3>
 	<p>
     <div class="row"> 
 	<div class="col_2">
@@ -65,11 +65,11 @@
       
 
    <tr id="trackorderr">
-   <td width="20%"><?php echo  $tracking_data['DeliveryID']; ?></td>
+   <td width="15%"><?php echo  $tracking_data['DeliveryID']; ?></td>
    <td width="26%"><?php echo  $tracking_data['RecipientName']; ?></td>
-   <td width="30%"><?php echo  date("Y-m-d",strtotime($tracking_data['OrderDate'])); ?></td>
+   <td width="26%"><?php echo  date("Y-m-d",strtotime($tracking_data['OrderDate'])); ?></td>
    <td width="23%"><?php echo  $tracking_data['Status']; ?></td>
-   <td width="23%"><?php echo  $tracking_data['TotalPrice']; ?></td>
+   <td width="23%">PHP <?php echo  $tracking_data['TotalPrice']; ?></td>
    </tr>
 
 

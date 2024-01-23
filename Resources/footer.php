@@ -10,16 +10,16 @@
 	<div class="col_2">
     <h2>About Ride Along</h2>
     <ul>
-	<li><a href="rr.php">About us</a></li>
-	<li><a href="rr.php">Privacy Policy</a></li>
-	<li><a href="rr.php">Terms of use</a></li>
+	<li><a href=" ">About us</a></li>
+	<li><a href=" ">Privacy Policy</a></li>
+	<li><a href=" ">Terms of use</a></li>
     </ul>
 	</div>
 	<div class="col_2">
     <h2>Information</h2>
     <ul>
-	<li><a href="rr.php">Help & FAQs</a></li>
-	<li><a href="rr.php">Shipping and delivery</a></li>
+	<li><a href=" ">Help & FAQs</a></li>
+	<li><a href=" ">Shipping and delivery</a></li>
     </ul>
 	</div>
 	<div class="col_2">
