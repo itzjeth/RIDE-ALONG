@@ -6,9 +6,9 @@
       <link rel="stylesheet" type="text/css" href="color.css">
    </head>
    <body>
-      <!-----------------Wrapper----------------->
+     
       <div id="wrapper">
-         <!-----------------Header & Navigation Bar----------------->
+        
          
 <?php include ('header.php');
 if (!isset($_SESSION["username"]))
@@ -35,20 +35,20 @@ else
 }
 ?>
 
-         <!-----------------Side Bar----------------->
+     
 <form method="post">
             <?php
-//Count number of rows
+
 $no_of_items = mysqli_num_rows($result_cart_details);
 if ($no_of_items > 0)
 {
 ?>
           
             <div id="sidebar" class="sidebar" >
-               <h2>Cart Summary</h2>
+               <h2 id="cartsummary">Cart Summary</h2>
                <div class="col_1">
                   <div class="box">
-                     <ul>
+                     <ul id="cartsummary">
                         <li><b>Total Products:</b> <?php echo $_SESSION['totalproducts']; ?></li>
                         <li><b>Tax:</b> 0 PHP</li>
                         <li><b>Total Price:</b> <?php echo $_SESSION['totalprice']; ?>.00 PHP </li>
@@ -66,7 +66,7 @@ if ($no_of_items > 0)
                </div>
             </div>
             <?php } else{}?> 
-            <!----------------- main frame----------------->
+          
             <div id="mainframe">
                <div class="sub_frame">
                   <h3>Shopping Cart</h3>
@@ -130,7 +130,7 @@ if ($no_of_items > 0)
          </script>
          </div>
          <div class="clear"></div>
-         <!-----------------Footer----------------->
+         
          <?php include('Resources/footer.php');?>
          </div>
       </div>

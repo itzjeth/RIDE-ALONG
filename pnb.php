@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>RIDE ALONG</title>
+     
       <link href="Resources/css.css" rel="stylesheet" type="text/css">
        <link rel="stylesheet" type="text/css" href="color.css">
    </head>

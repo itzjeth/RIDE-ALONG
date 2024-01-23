@@ -1,7 +1,6 @@
 	<!DOCTYPE html>
 	<html>
-	<head>
-	<title>Explorer Style</title>
+	<head>	<title>Explorer Style</title>
 	<link href="Resources/css.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="color.css">
 	</head>
@@ -23,7 +22,7 @@
 	<div id="mainframe">
 	
 		<center>
-    <h3 id="ordersucc">Order has been successfully Placed</h3>
+    <h3 id="ordersucc">Order has been successfully placed</h3>
     <a href="myprofile.php" class="thisa">
           <span></span>
           <span></span>

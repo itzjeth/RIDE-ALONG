@@ -22,6 +22,7 @@
                   <div class="col_3">
                      <h3>Account Benefits</h3>
                      <p>If you create an account with us, you will get additional benefits such as order history, prioritized delivery and much more.</p>
+                     <img src="Resources/designimages/gif.gif" height="450" width="700" style="mix-blend-mode: multiply; margin-left: -50px">
                   </div>
                   <div class="col_3">
                      <h3>Create a New Account</h3>

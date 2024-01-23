@@ -52,10 +52,10 @@ if(!isset($_GET["pid"])){
 }
             ?>
          <!-----------------Side Bar----------------->
-<div class="sidebar" style="border: 1px solid #099;">
+<div class="sidebar">
     <div class="col_1">
-        <h2>Similar Products</h2>
-        <div class="box2" style="background-color:#FFF;">
+        <h2 id="similarproducts">Similar Products</h2>
+        <div id="sidepnb" class="box2">
             <?php
                 // Count number of rows
                 $no_of_select_random_products = mysqli_num_rows($result_select_random_products);
@@ -65,10 +65,10 @@ if(!isset($_GET["pid"])){
             ?>
                 <p>
                     <div class="row"> 
-                        <div class="col_3">
+                        <div id="sidepnb" class="col_3">
                             <img src="<?php echo $data['ProductImage']; ?>" width="80" height="80">
                         </div>
-                        <div class="col_3" style="color:#000;">
+                        <div class="col_3">
                             <?php echo $data['ProductName']; ?><br>
                             PHP:<?php echo $data['ProductPrice']; ?>
                         </div>
@@ -126,6 +126,7 @@ if(!isset($_GET["pid"])){
         </tr>
         <input type="hidden" name="productid" value="<?= $PRODUCTID ?>">
             <?php while ($data = mysqli_fetch_array($result_reviews)): ?>
+                <table class="tablereview">
                 <tr>
                     <td><b>Reviewed On: </b><?= $data['ReviewDate'] ?></td>
                 </tr>
@@ -133,15 +134,14 @@ if(!isset($_GET["pid"])){
                     <td><b>Reviewed By: </b><?= $data['Username'] ?></td>
                 </tr>
                 <tr>
-                    <td><b>Review: </b><?= $data['Review'] ?></td>
+                    <td><b>Review Message: </b><?= $data['Review'] ?></td>
                 </tr>
+                </table>
                 <tr>
-                    <td><hr color="#00CCCC"></td>
+                    <td><hr color="black"></td>
                 </tr>
             <?php endwhile ?>
-            <tr>
-                <td>'0' Reviews for this product</td>
-            </tr>
+           
     </table>
     <br>
     <?php if(isset($_SESSION['username'])): ?>
@@ -156,7 +156,7 @@ if(!isset($_GET["pid"])){
         <table>
             <tr>
                 <td><?= $MESSAGE_REVIEW ?></td>
-                <td colspan="6" class="tf"><input type="submit" name="addreview" class="cart_btn" value="Add Review"></td>
+                <td colspan="6" class=""><input type="submit" name="addreview" class="cart_btn" value="Add Review"></td>
             </tr>
         </table>
     <?php endif ?>
