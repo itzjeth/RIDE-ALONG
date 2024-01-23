@@ -1,11 +1,53 @@
-### **RIDE ALONG !! created by itzjeth**
+### RIDE ALONG !! created by itzjeth
 
-An ongoing project in school, using PHP language. It is about ordering system of parts of a motorbike. With login and signup login to track what you do in the system.  
+  An ongoing project in school, using PHP language. It is about ordering system of parts of a motorbike. With login and signup login to track what you do in the system.  
 
 .
 .
 .
 .
+  HOW TO RUN?
+  ### DOWNLOAD LATEST XAMPP, OR IF YOU ALREADY HAVE XAMPP 
+  
+  START 'APACHE' AND 'MYSQL' 
+
+  RUN 'ADMIN' IN MYSQL
+,
+  CREATE A TABLE IN PHPADMIN 
+,  
+  NAME THE TABLE "ridealongv2"
+,
+  FIND THE "ridealongv2" TABLE 
+,
+  FIND 'IMPORT' IN THE TABLE 
+,
+  CLICK 'CHOOSE FILE'
+,
+ FIND THE REPOSITORY FOLDER, THEN FIND THE 'ridealongv2.sql' file
+,
+IF YOU FIND IT, CLICK 'UPLOAD' THEN SCROLL DOWN
+, 
+CLICK 'IMPORT'
+,
+WAIT TO LOAD YOUR TABLES...
+
+### HOW TO RUN LOCALHOST?
+
+GO LOCAL DISK
+,
+FIND 'xampp' FOLDER THEN OPEN 'htdocs', 
+,
+COPY AND PASTE YOUR FOLDER THAT CONTAINS THE PROJECT
+,
+Change the folder name anything you want as long at it is not too long
+,
+NOW RUN IN THE BROWSER:
+
+example:
+localhost/YOUR-FOLDER-NAME/Home.php
+
+
+  
 ### Here are the pages of Ride Along !
 ![](https://drive.google.com/file/d/1z6ol_39n-jSddTsqdPt_qjGwWkZoae5F/view?usp=drive_link)
 
