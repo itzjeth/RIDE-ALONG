@@ -1,51 +1,80 @@
-### RIDE ALONG !! created by itzjeth
+<h1> RIDE ALONG !! created by itzjeth </h1>
 
   An ongoing project in school, using PHP language. It is about ordering system of parts of a motorbike. With login and signup login to track what you do in the system.  
 
 <br>
-<br>
 
-  HOW TO RUN?
+  ## HOW TO RUN?
   ### DOWNLOAD LATEST XAMPP, OR IF YOU ALREADY HAVE XAMPP 
+  <br>
   
-  <br>START 'APACHE' AND 'MYSQL' 
-
-  RUN 'ADMIN' IN MYSQL
-,
+  <center> START '<b>APACHE</b>' AND '<b>MYSQL</b>' </center>
+  <br>
+  <br>
+  RUN '<b>ADMIN</b>' IN MYSQL
+   <br>
+  <br>
   CREATE A TABLE IN PHPADMIN 
-,  
-  NAME THE TABLE "ridealongv2"
-,
-  FIND THE "ridealongv2" TABLE 
-,
-  FIND 'IMPORT' IN THE TABLE 
-,
-  CLICK 'CHOOSE FILE'
-,
- FIND THE REPOSITORY FOLDER, THEN FIND THE 'ridealongv2.sql' file
-,
-IF YOU FIND IT, CLICK 'UPLOAD' THEN SCROLL DOWN
-, 
-CLICK 'IMPORT'
-,
-WAIT TO LOAD YOUR TABLES...
-
+ <br>
+  <br>
+  NAME THE TABLE "<b>ridealongv2</b>"
+ <br>
+  <br>
+  FIND THE "<b>ridealongv2</b>" TABLE 
+ <br>
+  <br>
+  FIND '<b>IMPORT</b>' IN THE TABLE 
+ <br>
+  <br>
+  CLICK '<b>CHOOSE FILE</b>'
+ <br>
+  <br>
+ FIND THE REPOSITORY FOLDER, THEN FIND THE '<b>ridealongv2.sql</b>' file
+ <br>
+  <br>
+IF YOU FIND IT, CLICK '<b>UPLOAD</b>' THEN SCROLL DOWN
+ <br>
+  <br>
+CLICK '<b>IMPORT</b>'
+ <br>
+  <br>
+  
+  
+### //CHILL AND WAIT TO LOAD YOUR TABLE !
+ <br>
+  <br> 
+  <br>
+  <br>
+  
 ### HOW TO RUN LOCALHOST?
-
+ <br>
 GO LOCAL DISK
-,
-FIND 'xampp' FOLDER THEN OPEN 'htdocs', 
-,
+ <br>
+  <br>
+FIND '<b>xampp</b>' FOLDER THEN OPEN '<b>htdocs</b>', 
+ <br>
+  <br>
 COPY AND PASTE YOUR FOLDER THAT CONTAINS THE PROJECT
-,
+ <br>
+  <br>
 Change the folder name anything you want as long at it is not too long
-,
-NOW RUN IN THE BROWSER:
+ <br>
+  <br>
+   <br>
+  <br> <br>
+  <br>
+  
+### NOW RUN IN THE BROWSER:
+ <br>
+# example:
+ <br>
+  <br>
+<b>localhost/YOUR-FOLDER-NAME/Home.php</b>
 
-example:
-localhost/YOUR-FOLDER-NAME/Home.php
-
-
+ <br>
+  <br> 
+  <br>
+  <br>
   
 ### Here are the pages of Ride Along !
 ![](https://drive.google.com/file/d/1z6ol_39n-jSddTsqdPt_qjGwWkZoae5F/view?usp=drive_link)
