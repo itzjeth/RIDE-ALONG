@@ -2,14 +2,13 @@
 
   An ongoing project in school, using PHP language. It is about ordering system of parts of a motorbike. With login and signup login to track what you do in the system.  
 
-.
-.
-.
-.
+<br>
+<br>
+
   HOW TO RUN?
   ### DOWNLOAD LATEST XAMPP, OR IF YOU ALREADY HAVE XAMPP 
   
-  START 'APACHE' AND 'MYSQL' 
+  <br>START 'APACHE' AND 'MYSQL' 
 
   RUN 'ADMIN' IN MYSQL
 ,
